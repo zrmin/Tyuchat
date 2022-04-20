@@ -28,6 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['www.zrmin.top']
 
+if DEBUG:
+        EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' # 只能开发时用
 
 AUTH_USER_MODEL = 'account.Account'
 AUTHENTICATION_BACKENDS = (
