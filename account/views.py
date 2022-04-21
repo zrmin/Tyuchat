@@ -7,10 +7,10 @@ from django.core.files.storage import default_storage
 from django.core.files.storage import FileSystemStorage
 import os
 #import cv2
-#import json
-#import base64
-#import requests
-#from django.core import files
+import json
+import base64
+import requests
+from django.core import files
 
 
 from account.forms import RegistrationForm, AccountAuthenticationForm, AccountUpdateForm
