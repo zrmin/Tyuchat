@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     # 我的apps
     'personal',
     'account',
+    'friend',
+
      #第三方apps
     'django.contrib.admin',
     'django.contrib.auth',
